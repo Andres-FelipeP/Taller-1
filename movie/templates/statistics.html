@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<body>
+<div>
+    <h2>Movies per Year</h2>
+    <img src="data:image/png;base64,{{ graphic_year }}" alt="Movies per Year">
+
+    <h2>Movies per Genre</h2>
+    <img src="data:image/png;base64,{{ graphic_genre }}" alt="Movies per Genre">
+
+</div>
+
+{% endblock content %}
